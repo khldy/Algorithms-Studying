@@ -1,4 +1,4 @@
-def selectionSort(arr):
+def selection_sort(arr):
     for i in range(len(arr)):  # Iterating through the full array, starting from the first index
         min_index = i  # Assuming the current index holds the smallest value
         for j in range(i + 1, len(arr)):  # Iterating starting from the next index to compare all remaining elements
@@ -11,5 +11,5 @@ def selectionSort(arr):
 numbers = [64, 25, 12, 22, 11]
 print('Unsorted array: ', numbers)  # Print the unsorted array
 
-sortedNumers = selectionSort(numbers)  # Call the selectionSort function and store the result in sortedNumbers
-print('Sorted Array: ', sortedNumers)  # Print the sorted array
+sortedNumbers = selection_sort(numbers)  # Call the selectionSort function and store the result in sortedNumbers
+print('Sorted Array: ', sortedNumbers)  # Print the sorted array
