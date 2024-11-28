@@ -23,6 +23,6 @@ def quick_sort(arr, low, high):
 
 #Usage
 array = [4, 2, 8, 60, 13, 1, 55]
-"""array = [10, 7, 8, 9, 1, 5]"""
+arr = [10, 7, 8, 9, 1, 5]
 quick_sort(array, 0, len(array) - 1)
 print("Sorted array: ", array )
